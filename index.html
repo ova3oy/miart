@@ -1,17 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MIART</title>
+<title>MiART - Tools for Producers</title>
+<link rel="icon" href="Logo.jpeg">
 <style>
-body{background:#000;margin:0;height:100vh;display:flex;align-items:center;justify-content:center;flex-direction:column}
-img{width:85%;max-width:380px}
-p{color:#555;font-family:sans-serif;font-size:10px;letter-spacing:5px;margin-top:30px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#121212;color:#fff;font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-height:100vh}
+.top{padding:20px;display:flex;justify-content:space-between;align-items:center}
+.top h1{font-size:22px;letter-spacing:2px}
+.top h1 span{color:#ff2a2a}
+.search-wrap{max-width:600px;margin:80px auto 50px;padding:0 20px;text-align:center}
+.search{width:100%;background:#2a2a2a;border:none;border-radius:30px;padding:18px 24px;color:#fff;font-size:16px;outline:none}
+.grid{max-width:600px;margin:0 auto;padding:0 20px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.item{text-align:center;text-decoration:none;color:#fff}
+.icon{width:64px;height:64px;background:#1e1e1e;border-radius:18px;display:flex;align-items:center;justify-content:center;margin:0 auto 8px;font-size:10px;letter-spacing:1px;border:1px solid #2a2a2a}
+.item p{font-size:11px;color:#888}
+.item:hover .icon{background:#2a2a2a}
 </style>
 </head>
 <body>
-<img src="Logo.jpeg">
-<p>TOOLS FOR PRODUCERS.</p>
+<div class="top">
+<h1>MiART<span>.</span></h1>
+</div>
+
+<div class="search-wrap">
+<input class="search" placeholder="Buscar en MiART...">
+</div>
+
+<div class="grid">
+<a class="item" href="#"><div class="icon">DRUMS</div><p>Drum Kit</p></a>
+<a class="item" href="#"><div class="icon">LOOPS</div><p>Loops</p></a>
+<a class="item" href="#"><div class="icon">MIDI</div><p>MIDI Pack</p></a>
+<a class="item" href="#"><div class="icon">MIX</div><p>Presets</p></a>
+<a class="item" href="#"><div class="icon">YT</div><p>Tutoriales</p></a>
+<a class="item" href="#"><div class="icon">IG</div><p>Instagram</p></a>
+<a class="item" href="#"><div class="icon">SHOP</div><p>Tienda</p></a>
+<a class="item" href="#"><div class="icon">+</div><p>Añadir</p></a>
+</div>
+
 </body>
 </html>
